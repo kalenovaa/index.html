@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.nav ul li a:hover {
+    color: #e60023;
+}
+
+.search {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.search input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.search button {
+    padding: 10px 15px;
+    background-color: #e60023;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.hero {
+    background-color: #e0e0e0;
+    padding: 40px 0;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    color: #e60023;
+    margin-bottom: 20px;
+}
+
+.hero-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-category {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.product-category h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.category-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.category-list li {
+    list-style-type: none;
+}
+
+.category-list li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.category-list li a:hover {
+    color: #e60023;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-info {
+    margin-top: 15px;
+}
+
+.product-info p {
+    margin-bottom: 5px;
+}
+
+.price {
+    color: #e60023;
+    font-weight: bold;
+}
+
+.badge {
+    display: inline-block;
+    background-color: #e60023;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}
